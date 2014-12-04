@@ -1,0 +1,17 @@
+{
+	"aps" : 
+	{
+		"alert" : 
+		{
+			"body" : "A new (survey | blog) is available!",
+			"action-loc-key" : "view"
+		},
+		"sound" : "default", 
+		"badge" : 1,
+		"content-available" : 1
+	},
+	"content-payload" : 
+	{
+		"content-type" : "(blog | survey)"
+	}
+}

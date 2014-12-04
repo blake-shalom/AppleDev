@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="BDEViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="door_top.png" id="ogi-S3-5VS">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="290"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="door_bottom.png" id="anV-vy-1UD">
+                                <rect key="frame" x="0.0" y="218" width="320" height="330"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="basketBottom" destination="anV-vy-1UD" id="B2Z-yE-t8a"/>
+                        <outlet property="basketTop" destination="ogi-S3-5VS" id="Mh9-Ln-ODL"/>
+                        <outlet property="napkinBottom" destination="TFG-N4-TV4" id="Zoy-0l-K7o"/>
+                        <outlet property="napkinTop" destination="TFG-N4-TV4" id="u4I-HJ-RxI"/>
+                    </connections>
+                </viewController>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fabric_top.png" id="TFG-N4-TV4">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="290"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fabric_bottom.png" id="fJc-XA-COC">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="330"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="door_bottom.png" width="320" height="235"/>
+        <image name="door_top.png" width="320" height="266"/>
+        <image name="fabric_bottom.png" width="320" height="235"/>
+        <image name="fabric_top.png" width="320" height="260"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

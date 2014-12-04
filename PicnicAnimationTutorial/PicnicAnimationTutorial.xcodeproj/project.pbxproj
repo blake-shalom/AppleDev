@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DC780EC1779413B00A64AD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC780EB1779413B00A64AD8 /* UIKit.framework */; };
+		9DC780EE1779413B00A64AD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC780ED1779413B00A64AD8 /* Foundation.framework */; };
+		9DC780F01779413B00A64AD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC780EF1779413B00A64AD8 /* CoreGraphics.framework */; };
+		9DC780F61779413B00A64AD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DC780F41779413B00A64AD8 /* InfoPlist.strings */; };
+		9DC780F81779413B00A64AD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC780F71779413B00A64AD8 /* main.m */; };
+		9DC780FC1779413B00A64AD8 /* BDEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC780FB1779413B00A64AD8 /* BDEAppDelegate.m */; };
+		9DC780FE1779413B00A64AD8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC780FD1779413B00A64AD8 /* Default.png */; };
+		9DC781001779413B00A64AD8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC780FF1779413B00A64AD8 /* Default@2x.png */; };
+		9DC781021779413B00A64AD8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC781011779413B00A64AD8 /* Default-568h@2x.png */; };
+		9DC781051779413B00A64AD8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC781031779413B00A64AD8 /* MainStoryboard.storyboard */; };
+		9DC781081779413B00A64AD8 /* BDEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC781071779413B00A64AD8 /* BDEViewController.m */; };
+		9DC78115177941E900A64AD8 /* bug.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7810E177941E900A64AD8 /* bug.png */; };
+		9DC78116177941E900A64AD8 /* door_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7810F177941E900A64AD8 /* door_bottom.png */; };
+		9DC78117177941E900A64AD8 /* door_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC78110177941E900A64AD8 /* door_top.png */; };
+		9DC78118177941E900A64AD8 /* fabric_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC78111177941E900A64AD8 /* fabric_bottom.png */; };
+		9DC78119177941E900A64AD8 /* fabric_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC78112177941E900A64AD8 /* fabric_top.png */; };
+		9DC7811A177941E900A64AD8 /* plate_cheese.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC78113177941E900A64AD8 /* plate_cheese.png */; };
+		9DC7811B177941E900A64AD8 /* squish.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC78114177941E900A64AD8 /* squish.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DC780E81779413B00A64AD8 /* PicnicAnimationTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicnicAnimationTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC780EB1779413B00A64AD8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DC780ED1779413B00A64AD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DC780EF1779413B00A64AD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DC780F31779413B00A64AD8 /* PicnicAnimationTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PicnicAnimationTutorial-Info.plist"; sourceTree = "<group>"; };
+		9DC780F51779413B00A64AD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DC780F71779413B00A64AD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DC780F91779413B00A64AD8 /* PicnicAnimationTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PicnicAnimationTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		9DC780FA1779413B00A64AD8 /* BDEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDEAppDelegate.h; sourceTree = "<group>"; };
+		9DC780FB1779413B00A64AD8 /* BDEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDEAppDelegate.m; sourceTree = "<group>"; };
+		9DC780FD1779413B00A64AD8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9DC780FF1779413B00A64AD8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9DC781011779413B00A64AD8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9DC781041779413B00A64AD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9DC781061779413B00A64AD8 /* BDEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDEViewController.h; sourceTree = "<group>"; };
+		9DC781071779413B00A64AD8 /* BDEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDEViewController.m; sourceTree = "<group>"; };
+		9DC7810E177941E900A64AD8 /* bug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug.png; sourceTree = "<group>"; };
+		9DC7810F177941E900A64AD8 /* door_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door_bottom.png; sourceTree = "<group>"; };
+		9DC78110177941E900A64AD8 /* door_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door_top.png; sourceTree = "<group>"; };
+		9DC78111177941E900A64AD8 /* fabric_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fabric_bottom.png; sourceTree = "<group>"; };
+		9DC78112177941E900A64AD8 /* fabric_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fabric_top.png; sourceTree = "<group>"; };
+		9DC78113177941E900A64AD8 /* plate_cheese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate_cheese.png; sourceTree = "<group>"; };
+		9DC78114177941E900A64AD8 /* squish.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = squish.caf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DC780E51779413B00A64AD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC780EC1779413B00A64AD8 /* UIKit.framework in Frameworks */,
+				9DC780EE1779413B00A64AD8 /* Foundation.framework in Frameworks */,
+				9DC780F01779413B00A64AD8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DC780DF1779413B00A64AD8 = {
+			isa = PBXGroup;
+			children = (
+				9DC780F11779413B00A64AD8 /* PicnicAnimationTutorial */,
+				9DC780EA1779413B00A64AD8 /* Frameworks */,
+				9DC780E91779413B00A64AD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DC780E91779413B00A64AD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DC780E81779413B00A64AD8 /* PicnicAnimationTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DC780EA1779413B00A64AD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DC780EB1779413B00A64AD8 /* UIKit.framework */,
+				9DC780ED1779413B00A64AD8 /* Foundation.framework */,
+				9DC780EF1779413B00A64AD8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DC780F11779413B00A64AD8 /* PicnicAnimationTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				9DC780FA1779413B00A64AD8 /* BDEAppDelegate.h */,
+				9DC780FB1779413B00A64AD8 /* BDEAppDelegate.m */,
+				9DC781031779413B00A64AD8 /* MainStoryboard.storyboard */,
+				9DC781061779413B00A64AD8 /* BDEViewController.h */,
+				9DC781071779413B00A64AD8 /* BDEViewController.m */,
+				9DC7811C177941F300A64AD8 /* Images and sounds */,
+				9DC780F21779413B00A64AD8 /* Supporting Files */,
+			);
+			path = PicnicAnimationTutorial;
+			sourceTree = "<group>";
+		};
+		9DC780F21779413B00A64AD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DC780F31779413B00A64AD8 /* PicnicAnimationTutorial-Info.plist */,
+				9DC780F41779413B00A64AD8 /* InfoPlist.strings */,
+				9DC780F71779413B00A64AD8 /* main.m */,
+				9DC780F91779413B00A64AD8 /* PicnicAnimationTutorial-Prefix.pch */,
+				9DC780FD1779413B00A64AD8 /* Default.png */,
+				9DC780FF1779413B00A64AD8 /* Default@2x.png */,
+				9DC781011779413B00A64AD8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DC7811C177941F300A64AD8 /* Images and sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9DC7810E177941E900A64AD8 /* bug.png */,
+				9DC7810F177941E900A64AD8 /* door_bottom.png */,
+				9DC78110177941E900A64AD8 /* door_top.png */,
+				9DC78111177941E900A64AD8 /* fabric_bottom.png */,
+				9DC78112177941E900A64AD8 /* fabric_top.png */,
+				9DC78113177941E900A64AD8 /* plate_cheese.png */,
+				9DC78114177941E900A64AD8 /* squish.caf */,
+			);
+			name = "Images and sounds";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DC780E71779413B00A64AD8 /* PicnicAnimationTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC7810B1779413B00A64AD8 /* Build configuration list for PBXNativeTarget "PicnicAnimationTutorial" */;
+			buildPhases = (
+				9DC780E41779413B00A64AD8 /* Sources */,
+				9DC780E51779413B00A64AD8 /* Frameworks */,
+				9DC780E61779413B00A64AD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicnicAnimationTutorial;
+			productName = PicnicAnimationTutorial;
+			productReference = 9DC780E81779413B00A64AD8 /* PicnicAnimationTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DC780E01779413B00A64AD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BDE;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Blake Ellingham";
+			};
+			buildConfigurationList = 9DC780E31779413B00A64AD8 /* Build configuration list for PBXProject "PicnicAnimationTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DC780DF1779413B00A64AD8;
+			productRefGroup = 9DC780E91779413B00A64AD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DC780E71779413B00A64AD8 /* PicnicAnimationTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DC780E61779413B00A64AD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC780F61779413B00A64AD8 /* InfoPlist.strings in Resources */,
+				9DC780FE1779413B00A64AD8 /* Default.png in Resources */,
+				9DC781001779413B00A64AD8 /* Default@2x.png in Resources */,
+				9DC781021779413B00A64AD8 /* Default-568h@2x.png in Resources */,
+				9DC781051779413B00A64AD8 /* MainStoryboard.storyboard in Resources */,
+				9DC78115177941E900A64AD8 /* bug.png in Resources */,
+				9DC78116177941E900A64AD8 /* door_bottom.png in Resources */,
+				9DC78117177941E900A64AD8 /* door_top.png in Resources */,
+				9DC78118177941E900A64AD8 /* fabric_bottom.png in Resources */,
+				9DC78119177941E900A64AD8 /* fabric_top.png in Resources */,
+				9DC7811A177941E900A64AD8 /* plate_cheese.png in Resources */,
+				9DC7811B177941E900A64AD8 /* squish.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DC780E41779413B00A64AD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC780F81779413B00A64AD8 /* main.m in Sources */,
+				9DC780FC1779413B00A64AD8 /* BDEAppDelegate.m in Sources */,
+				9DC781081779413B00A64AD8 /* BDEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DC780F41779413B00A64AD8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC780F51779413B00A64AD8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DC781031779413B00A64AD8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC781041779413B00A64AD8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DC781091779413B00A64AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DC7810A1779413B00A64AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DC7810C1779413B00A64AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicnicAnimationTutorial/PicnicAnimationTutorial-Prefix.pch";
+				INFOPLIST_FILE = "PicnicAnimationTutorial/PicnicAnimationTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DC7810D1779413B00A64AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicnicAnimationTutorial/PicnicAnimationTutorial-Prefix.pch";
+				INFOPLIST_FILE = "PicnicAnimationTutorial/PicnicAnimationTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DC780E31779413B00A64AD8 /* Build configuration list for PBXProject "PicnicAnimationTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC781091779413B00A64AD8 /* Debug */,
+				9DC7810A1779413B00A64AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC7810B1779413B00A64AD8 /* Build configuration list for PBXNativeTarget "PicnicAnimationTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC7810C1779413B00A64AD8 /* Debug */,
+				9DC7810D1779413B00A64AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DC780E01779413B00A64AD8 /* Project object */;
+}

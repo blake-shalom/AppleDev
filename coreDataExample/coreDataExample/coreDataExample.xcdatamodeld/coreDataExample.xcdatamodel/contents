@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Book" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="publicationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="publisher" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="books" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Event">
+        <attribute name="timeStamp" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="Person" syncable="YES">
+        <attribute name="booty" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="books" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Book" inverseName="publisher" inverseEntity="Book" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="106" positionY="144" width="128" height="75"/>
+        <element name="Book" positionX="-101" positionY="135" width="128" height="88"/>
+        <element name="Person" positionX="106" positionY="36" width="128" height="73"/>
+    </elements>
+</model>
